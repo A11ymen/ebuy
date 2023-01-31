@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const Signin = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  useEffect(() => {
+    console.log("Sign In Page");
+  }, []);
 
-export default Signin
+  return (
+    <>
+      <h2>Signin</h2>
+    </>
+  );
+};
+
+export default Signin;
