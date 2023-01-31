@@ -3,9 +3,9 @@ import React from 'react'
 const Footer = () => {
   return (
     <>
+    {/* <Footer className='py-3'></Footer>
     <Footer className='py-3'></Footer>
-    <Footer className='py-3'></Footer>
-    <Footer className='py-3'>
+    <Footer className='py-3'> */}
     <div className='container-xxl'>
       <div className='row'>
         <div className='col-12'>
@@ -13,7 +13,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    </Footer>
+    {/* </Footer> */}
     </>
   )
 }
