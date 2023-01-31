@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useEffect } from "react";
 
 const Home = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  useEffect(() => {
+    console.log("Home Page");
+  }, []);
 
-export default Home
+  return (
+    <>
+      <h2>Home</h2>
+    </>
+  );
+};
+
+export default Home;
