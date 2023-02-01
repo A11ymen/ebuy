@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Carousel } from "react-bootstrap";
 const Home = () => {
   useEffect(() => {
-    console.log("Home Page");
+    console.log("Home Page Component");
   }, []);
 
   return (
@@ -52,7 +52,7 @@ const Home = () => {
         <div className='row'>
           <div className='col-12'>
             <div className='services d-flex align-items center justify-content-between'>
-              <div>
+              <div className='d-flex'>
                 <img src={'images/service.png'} alt="services"></img>
                 <div>
                   <h6>Free shipping</h6>
