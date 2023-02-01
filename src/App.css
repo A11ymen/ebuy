@@ -8,11 +8,13 @@
   --color-232f3e: #232f3e;
   --color-3b4149: #3b1449;
   --color-febd69: #febd69;
+  
 }
 
 body
 {
   font-family:'Rubik', sans-serif;  
+
 }
 a
 {
@@ -85,9 +87,20 @@ text-transform: uppercase;
 footer 
 {
   background-color: var(--color-232f3e);
-  position:absolute;
-  left:0;
+  position:relative;
   bottom:0;
-  right:0;
+  width: 100%;
   padding-bottom:60px;
+}
+footer:not(:first-child)
+{
+  border-top: 1px solid rgba(255, 255, 255, 3);
+}
+
+
+/*Home page*/
+.img-fluid {
+ 
+  height:30;
+  width:120;
 }
