@@ -35,7 +35,7 @@ const Header = () => {
                 <div>
                   {" "}
                   <Link
-                    to='#'
+                    to='/wishlist'
                     className='d-flex align-items-center gap-10 text-white'
                   >
                     <img src='images/wishlist.svg' alt='wishlist' />
@@ -44,7 +44,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to='signup'
+                    to='/signup'
                     className='d-flex align-items-center gap-10 text-white'
                   >
                     <img src='images/user.svg' alt='user' />
@@ -53,7 +53,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to='signin'
+                    to='/login'
                     className='d-flex align-items-center gap-10 text-white'
                   >
                     <img src='images/user.svg' alt='user' />
@@ -62,7 +62,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Link
-                    to='#'
+                    to='/cart'
                     className='d-flex align-items-center gap-10 text-white'
                   >
                     <img src='images/cart.svg' alt='cart' />
@@ -125,10 +125,10 @@ const Header = () => {
                     <NavLink className='text-white' to='/'>
                       Home
                     </NavLink>
-                    <NavLink className='text-white' to='#'>
+                    <NavLink className='text-white' to='/store'>
                       Our Store
                     </NavLink>
-                    <NavLink className='text-white' to='#'>
+                    <NavLink className='text-white' to='/contact'>
                       Contact
                     </NavLink>
                   </div>
